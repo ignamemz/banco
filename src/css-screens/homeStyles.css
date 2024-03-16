@@ -1,0 +1,39 @@
+.body {
+    background-color: antiquewhite;
+    min-height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 30px;
+    background-color: rgb(252, 223, 185);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(230, 215, 197);
+}
+
+.codigo {
+    margin: 5px;
+    width: 80%;
+    padding: 10px;
+    border: 2px solid silver;
+    border-radius: 5px;
+    outline: none;
+}
+
+.boton {
+    padding: 15px;
+    background-color: antiquewhite;
+    border: 2px solid rgb(230, 215, 197);
+    color: rgb(114, 114, 114);
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: rgb(199, 155, 97);
+    color: rgb(255, 224, 188)
+}

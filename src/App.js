@@ -1,16 +1,19 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./screens/home"
+import Main from "./screens/main";
 
-import './App.css';
+const App = () => {
 
-function App() {
   return (
-    <div className="body">
-      <header className="header">
-        <p>
-          Edit src/App.js and save to reload.
-        </p>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+
+      <Routes>
+        <Route path="/" element={ <Home/> } />
+        <Route path="main" element={ <Main/> } />
+      </Routes>
+
+    </BrowserRouter>
+  )
 }
 
 export default App;
