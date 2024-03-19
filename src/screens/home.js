@@ -21,7 +21,7 @@ const Home = () => {
   };
 
   return (
-    <div className="body">
+    <div className="body1">
       <div className="container">  
         <h1>Ingrese su código</h1>
         <input

@@ -1,16 +1,49 @@
-.body {
+.body2 {
     background-color: antiquewhite;
-    flex-direction: column;
     width: auto;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.tarjetasContainer {
+.tarjetasContainerMain {
     width: auto;
     display: flex;
     align-items: center;
 }
 
+.tarjetasContainer {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
 .tarjetas {
+    border: 2px solid rgb(230, 215, 197);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     width: 200px;
+    padding: 5px;
+    background-color: white;
+}
+
+.botones {
+    padding: 15px;
+    background-color: antiquewhite;
+    border: 2px solid rgb(230, 215, 197);
+    border-top: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: rgb(114, 114, 114);
+}
+
+.botones:hover {
+    border: 2px solid rgb(240, 184, 116);
+    border-top: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(199, 155, 97);
+    color: rgb(255, 224, 188)
 }

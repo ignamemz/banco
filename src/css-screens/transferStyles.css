@@ -1,0 +1,39 @@
+.body3 {
+    background-color: antiquewhite;
+    width: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.datosContainer {
+    margin: 20px;
+    width: auto;
+    padding: 15px;
+    border: 2px solid rgb(230, 215, 197);
+    border-radius: 5px;
+    background-color: rgb(252, 223, 185);
+    display: flex;
+    flex-direction: column;
+}
+
+.valorContainer {
+    width: auto;
+    padding: 15px;
+    border: 2px solid rgb(230, 215, 197);
+    border-radius: 5px;
+    background-color: rgb(252, 223, 185);
+    display: flex;
+    flex-direction: column;
+}
+
+.valorTransfer {
+    margin: 5px;
+    width: 50%;
+    padding: 10px;
+    border: 2px solid silver;
+    border-radius: 5px;
+    outline: none;
+}

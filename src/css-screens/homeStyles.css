@@ -1,4 +1,4 @@
-.body {
+.body1 {
     background-color: antiquewhite;
     min-height: 100vh;
     width: auto;
@@ -34,6 +34,7 @@
 }
 
 .boton:hover {
+    border: 2px solid rgb(230, 215, 197);
     background-color: rgb(199, 155, 97);
     color: rgb(255, 224, 188)
 }
