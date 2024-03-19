@@ -37,18 +37,18 @@ const enviarValor = () => {
     <div className='body3'>
 
         <div className='datosContainer'>
-          <h2>Usted va a enviar dinero a: </h2><p>Nombre: Vazquez Jorge Fransisco <br/>DNI: 46074699 <br/>Cvu: 00000005548448439 <br/>Residencia: Corrientes Capital</p> 
+          <p className='titulo'>Usted va a enviar dinero a: </p><p>Nombre: Vazquez Jorge Fransisco <br/>DNI: 46074699 <br/>Cvu: 00000005548448439 <br/>Residencia: Corrientes Capital</p> 
         </div> 
 
         <div className='valorContainer'>
 
-            <h1>cuanto quiere transferir?</h1>
+            <p className='titulo'>cuanto quiere transferir?</p>
 
             <div>
                 <input className='valorTransfer' type='number' placeholder='Valor de la transferencia aqui' onChange={handleValorChange} value={valor} /> ARS
             </div>
-            <Link className='boton' to="/loadingScreen" onClick={enviarValor}>Enviar a la base de datos</Link>
-            <Link className='boton' to="/">Volver</Link>
+            <Link className='boton1' to="/loadingScreen" onClick={enviarValor}>Enviar a la base de datos</Link>
+            <Link className='boton1' to="/">Volver</Link>
         </div>
 
     </div>

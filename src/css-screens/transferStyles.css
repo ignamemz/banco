@@ -1,5 +1,5 @@
 .body3 {
-    background-color: antiquewhite;
+    background-color: #23272F;
     width: auto;
     min-height: 100vh;
     display: flex;
@@ -8,13 +8,18 @@
     align-items: center;
 }
 
+.titulo {
+    font-size: 1.5em;
+    color: #23272F;
+}
+
 .datosContainer {
     margin: 20px;
     width: auto;
     padding: 15px;
-    border: 2px solid rgb(230, 215, 197);
+    border: 2px solid #006283;
     border-radius: 5px;
-    background-color: rgb(252, 223, 185);
+    background-color: #149ECA;
     display: flex;
     flex-direction: column;
 }
@@ -22,9 +27,9 @@
 .valorContainer {
     width: auto;
     padding: 15px;
-    border: 2px solid rgb(230, 215, 197);
+    border: 2px solid #006283;
     border-radius: 5px;
-    background-color: rgb(252, 223, 185);
+    background-color: #149ECA;
     display: flex;
     flex-direction: column;
 }
@@ -33,7 +38,24 @@
     margin: 5px;
     width: 50%;
     padding: 10px;
-    border: 2px solid silver;
+    background-color: #23272F;
+    border: 2px solid #006283;
     border-radius: 5px;
     outline: none;
+    color: white;
+}
+
+.boton1 {
+    margin: 2px;
+    color: white;
+    padding: 15px;
+    background-color: #006283;
+    border: 2px solid #017ca5;
+    border-radius: 5px;
+}
+
+.boton1:hover {
+    color: #23272F;
+    background-color: #3abde9;
+    border: 2px solid #3ecbfa;
 }

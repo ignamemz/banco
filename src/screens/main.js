@@ -11,7 +11,7 @@ const Main = () => {
   return (
     <div className='body2'>
 
-        <h1>Elija el metodo de la transferencia</h1>
+        <p className='titulo1'>Elija el metodo de la transferencia</p>
 
         <div className='tarjetasContainerMain'>
 
